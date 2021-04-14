@@ -3,7 +3,7 @@ let score = 0;
 let userName = prompt('PLEASE INTER YOUR NAME');
 alert('HELLO ' + userName.toUpperCase() + ' ,I AM GLAD YOU ARE HERE!');
 alert('LETS PLAY A QUICK GAME!');
-
+function Q1(){
 let study = prompt('Am I a Computer Scientist?', 'yes or no').toLocaleLowerCase();
 if (study === 'y' || study === 'yes') {
     alert('Correct! I studied Computer Science in Yarmouk University.');
@@ -15,7 +15,8 @@ else if (study === 'n' || study === 'no') {
 else {
     alert("your answer should be yes or no.")
 }
-
+}
+function Q2(){
 let live = prompt('I Live In Jordan ?', 'yes or no').toLocaleLowerCase();
 if (live === 'y' || live === 'yes') {
     alert('Correct! I live in Amman.');
@@ -27,7 +28,8 @@ else if (live === 'n' || live === 'no') {
 else {
     alert("your answer should be yes or no.")
 }
-
+}
+function Q3(){
 let drink = prompt('Do I Like Drinking Coffe?', 'yes or no').toLocaleLowerCase();
 if (drink === 'y' || drink === 'yes') {
     alert('Correct! Coffee is my favourite drink.');
@@ -40,7 +42,8 @@ else {
     alert("your answer should be yes or no.");
 
 }
-
+}
+function Q4(){
 let morning = prompt('Am I a Morning Person?', 'yes or no').toLocaleLowerCase();
 morning.toLocaleLowerCase();
 if (morning === 'n' || morning === 'no') {
@@ -53,7 +56,8 @@ else if (morning === 'y' || morning === 'yes') {
 else {
     alert("your answer should be yes or no.")
 }
-
+}
+function Q5(){
 let cat = prompt('Am I a Cat Person?', 'yes or no').toLocaleLowerCase();
 if (cat === 'y' || cat === 'yes') {
     alert('Correct! I love Cat So Much.');
@@ -65,7 +69,7 @@ else if (cat === 'n' || cat === 'no') {
 else {
     alert("your answer should be yes or no.")
 }
-
+}
 /*
 console.log('I studied Computer Science in Yarmouk University.');
 console.log(' I live in Amman.');
@@ -75,7 +79,7 @@ console.log(' I love Cat So Much.'); */
 
 
 
-
+function Q6(){
 let myNum = 7;
 let counter = 0;
 let userNum = Number(prompt("Guess my favorite number between 1 to 10"));
@@ -102,7 +106,8 @@ else {
 }
 
 //console.log('7');
-
+}
+function Q7(){
 let answers = [3, 8, 12, 19, 15, 6];
 let attemp = 0;
 let chance=6;
@@ -128,6 +133,13 @@ attemp++;
 }
 
 //console.log(answers);
-
+}
+Q1();
+Q2();
+Q3();
+Q4();
+Q5();
+Q6();
+Q7();
 alert('My answers are: \n I studied Computer Science in Yarmouk University. \n I live in Amman. \n Coffee is my favourite drink. \n I\'m Not a Morning person. \n I love Cat So Much.\n my favorite number is 7 \n The numbers are: 3,6,8,12,15,19. \n YOUR SCORE IS: ' + score);
 alert('THANK YOU ' + userName.toUpperCase() + ' ,I HOPE YOU KNOW ME BETTER NOW :)');
