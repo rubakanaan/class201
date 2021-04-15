@@ -70,12 +70,7 @@ else {
     alert("your answer should be yes or no.")
 }
 }
-/*
-console.log('I studied Computer Science in Yarmouk University.');
-console.log(' I live in Amman.');
-console.log('Coffee is my favourite drink.');
-console.log(' I\'m Not a Morning person.');
-console.log(' I love Cat So Much.'); */
+
 
 
 
@@ -105,7 +100,7 @@ else {
     score++;
 }
 
-//console.log('7');
+
 }
 function Q7(){
 let answers = [3, 8, 12, 19, 15, 6];
@@ -132,7 +127,7 @@ chance--;
 attemp++;
 }
 
-//console.log(answers);
+
 }
 Q1();
 Q2();
